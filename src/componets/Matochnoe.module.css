@@ -1,0 +1,40 @@
+
+.nn{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 44, 44);
+    transition: 0.5s;
+    /* transform: translateX(-100%); */
+    
+}
+.close_item{
+    position: absolute;
+    right: -30px;
+    top: 1rem;
+    color: rgb(246, 35, 35);
+    cursor: pointer;
+}
+.nn_active{
+   left: 0;
+}
+.menulist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+    
+
+}
+.menulist a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
