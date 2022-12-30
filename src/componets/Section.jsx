@@ -13,6 +13,7 @@ import img_5 from '../img/Kyrgyzstan 1.png'
 import img_6 from '../img/Line 4.png'
 import img_7 from '../img/gen.png'
 import img_8 from '../img/Rectangle 5.png'
+import arow from '../img/arrowleft2.png'
 import img_9 from '../img/cow_bac.png'
 import cow_2 from '../img/cow_2.png'
 import img_doc from '../img/document_img.png'
@@ -109,7 +110,9 @@ const Section = () => {
                     </div>
                     <div> <img src={img_6} alt="" /></div>
                         <div className={aa.exit}>
-                            <button>Выход</button>
+                            <Link to='/'>
+                            <button> <img src={arow} alt=""  /> Выход</button>
+                            </Link>
                         </div>
                         </div>
                        

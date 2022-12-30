@@ -841,16 +841,19 @@
     flex-direction: column;
     display: grid;
     gap: 1rem;
+    
 }
 
 .img_button_colum {
     flex-direction: column;
     display: grid;
     gap: 1rem;
+    
 }
 .btnss{
     width: 250px;
     color: #fff;
+    
 
 }
 .line_blok_2 {
@@ -888,6 +891,14 @@
 
 
 }
+.exit button{
+    background-color: #028DF2;
+    border-radius: 100px;
+    padding: 5px 20px ;
+    color: #fff;
+    border-color: rgba(84, 177, 243, 0.67) ;
+}
+
 
 .btn_1 {
     display: flex;
@@ -921,10 +932,12 @@
     border-radius: 15px;
     border: 5px solid #aed3dd;
     color: #fff;
+    
 }
 
 .btn_dosher {
     display: flex;
+    
 }
 
 .fot {
